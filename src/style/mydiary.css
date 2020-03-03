@@ -1,0 +1,15 @@
+.pablics {
+    list-style: none;
+}
+.pablics li h2{
+    font-family: 'Frijole', cursive;
+    margin-left: 100px;
+}
+.pablics li p{
+    margin-left: 50px;
+}
+.containerpablic {
+    position: absolute;
+    bottom: 290px;
+    left: 50px;    
+}

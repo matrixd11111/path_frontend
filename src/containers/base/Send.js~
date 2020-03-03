@@ -1,0 +1,19 @@
+import React from 'react';
+
+const ImgSend = require('../../media/base/send.png');
+const ImgMenu = require('../../media/base/menu.png');
+
+class Send extends React.Component {
+    render () {
+	return (
+		<div className='footer'>
+		<form className='formsend'>
+		<button className='dropmenu'><img src={ImgMenu} alt="img"/></button>
+		<input className='send' name="send" type="text" placeholder="__"/>
+		<button className='buttonsend'><img src={ImgSend} alt="img"/></button>
+		</form>
+</div>
+);
+}
+}
+export default Send;

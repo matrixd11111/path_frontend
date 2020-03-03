@@ -1,0 +1,10 @@
+.articles {
+    list-style: none;
+    font-family: 'Frijole', cursive;
+}
+.itemtitle {
+    position: absolute;
+    bottom: 500px;
+    left: 150px;
+    font-family: 'Frijole', cursive;
+}

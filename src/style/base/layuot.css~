@@ -1,0 +1,60 @@
+html {
+    background-color: #DFDFDF;
+}
+.header {
+    max-width: 90%;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.content {
+    max-width: 90%;
+    height: 550px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+.sider {
+    height: 500px;
+    position: relative;
+    left: 950px;
+}
+.footer {
+    max-width: 90%;
+    height: 40px;
+    position: relative;
+    left: 50px;
+}
+.send {
+    width: 800px;
+    height: 28px;
+}
+.buttonsend {
+    width: 170px;
+    position: relative;
+    top: 7px;
+}
+.buttonsend img{
+    position: relative;
+    top: 2px;
+    right: 25px;
+}
+.dropmenu img{
+    width: 70px;
+    height: 15px;
+}
+.dropmenu {
+    position: relative;
+    top: 2px;
+    height: 34px;
+}
+.header a {
+    margin-left: 30px;
+}
+.header a img {
+    max-width: 270px;
+}
+.articles {
+    list-style: none;
+}

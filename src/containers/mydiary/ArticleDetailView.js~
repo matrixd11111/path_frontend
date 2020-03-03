@@ -1,0 +1,49 @@
+import React from 'react';
+import axios from 'axios';
+
+import Pablic from "./Pablications";
+
+class ArticleDetail extends React.Component {
+    constructor(props){
+	super(props);
+	this.state = {
+	    articles: [],
+	    content: []
+	};
+	this.pasrserContent = this.parserContent.bind(this);
+    }
+
+    componentDidMount() {
+	const articleID = this.props.match.params.articleID;
+	axios.get(`http://127.0.0.1:8000/api/pablic/${articleID}/`)
+	     .then(res => {
+		 this.setState({
+		     articles: res.data
+		 });
+		 this.parserContent(res.data)
+	     })
+    }
+
+    parserContent = (pablics) => {
+	pablics.map((pablic) => {
+	    const content = JSON.parse(pablic.content, function(key, value){
+		if (key === 'title') return key;
+		return value;
+	    });
+	    this.setState({
+		content: content
+	    });}
+	)
+    }
+
+    render() {
+	return (
+		<Pablic data={this.state.articles}
+	    content={this.state.content}
+/>
+	);
+    }
+}
+
+
+export default ArticleDetail;

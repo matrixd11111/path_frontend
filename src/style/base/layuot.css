@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Frijole&display=swap');
+
+html {
+    background-color: #DFDFDF;
+}
+.header {
+    max-width: 90%;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.content {
+    max-width: 90%;
+    height: 550px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+.sider {
+    height: 500px;
+    position: relative;
+    left: 950px;
+}
+.footer {
+    max-width: 90%;
+    height: 40px;
+    position: relative;
+    left: 50px;
+}
+.send {
+    width: 800px;
+    height: 28px;
+
+}
+.buttonsend{
+    position: relative;
+    left: 20px;
+    top: 7px;
+    font-family: 'Frijole', cursive;
+    font-size: 30px;
+    border: none;
+}
+.dropmenu {
+    position: relative;
+    top: 7px;
+    height: 34px;
+    font-family: 'Frijole', cursive;
+    font-size: 30px;
+    border: none;
+}
+.header a {
+    margin-left: 80px;
+    font-family: 'Frijole', cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
